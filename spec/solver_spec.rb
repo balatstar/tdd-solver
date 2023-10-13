@@ -27,4 +27,21 @@ describe Solver do
       expect(@solver.reverse('hello')).to eq('olleh')
     end
   end
+  describe 'fizzbuzz' do
+    it 'returns fizzbuzz for multiples of both 3 and 5' do
+      expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
+    end
+    
+    it 'returns the fizz for multiples of 3' do
+      expect(@solver.fizzbuzz(9)).to eq('fizz')
+    end
+
+    it 'returns buzz for multiples of 5' do
+      expect(@solver.fizzbuzz(10)).to eq('buzz')
+    end
+
+    it 'returns the number for non-multiples of 3 and 5' do
+      expect(@solver.fizzbuzz(7)).to eq('7')
+    end
+  end
 end
