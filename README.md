@@ -67,6 +67,11 @@ GitHub: @balatstar<br>
 Twitter: @balatstar<br>
 LinkedIn: Joyce Cruz<br>
 
+#### 👤 Margaret Kojo-Musa
+GitHub: @MargaretTechworld<br>
+Twitter: @KojoMargaret<br>
+LinkedIn: Margaret Kojo-Musa<br>
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - User interface
