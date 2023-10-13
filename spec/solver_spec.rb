@@ -10,7 +10,7 @@ describe Solver do
   end
   describe 'factorial' do
     it 'returns an error for n<0' do
-      expect { @solver.factorial(-3) }.to raise_error(StandardError, "Negative integers not allowed.")
+      expect { @solver.factorial(-3) }.to raise_error(StandardError, 'Negative integers not allowed.')
     end
 
     it 'returns the correct factorial for 0' do
@@ -31,7 +31,7 @@ describe Solver do
     it 'returns fizzbuzz for multiples of both 3 and 5' do
       expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
     end
-    
+
     it 'returns the fizz for multiples of 3' do
       expect(@solver.fizzbuzz(9)).to eq('fizz')
     end
